@@ -10,3 +10,7 @@ struct MCP_CAN *mc;
 ```
 void can_send(void *arg)
 ```
+- Recieve messages from other CAN controller
+```
+void can_recieve(void *arg)
+```
