@@ -8,13 +8,7 @@ struct MCP_CAN *mc;
  *
  * \section Documentation
  *
- * This is the introduction. Add some content....
- *
- * \section install_sec Installation
- *
- * \subsection step1 Step 1: Opening the box
- *
- * etc...
+ * This is a test app to communicate to CAN transceiver. 
  */
 
 
