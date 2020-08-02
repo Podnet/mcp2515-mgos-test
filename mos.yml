@@ -15,8 +15,11 @@ sources:
 filesystem:
   - fs
 
-# config_schema:
+config_schema:
 #  - ["debug.level", 3]
+  - ["spi.enable", true]
+  - ["spi.cs0_gpio", 10]
+  - ["spi.freq", "i", 9600, {"title": "SPI clock frequency"}]
 
 libs:
   - origin: https://github.com/mongoose-os-libs/boards
@@ -25,5 +28,6 @@ libs:
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
   - origin: https://github.com/mongoose-os-libs/rpc-uart
   - origin: https://github.com/hrithik098/MCP2515
+  - origin: https://github.com/mongoose-os-libs/spi
 
 manifest_version: 2017-09-29
